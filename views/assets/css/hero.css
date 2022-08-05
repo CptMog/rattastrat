@@ -1,0 +1,83 @@
+/********* HERO PART ***********/
+
+.container-hero{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.container-hero h1{
+    letter-spacing: 6px;
+}
+
+.container-hero span{
+    letter-spacing: 3px;
+}
+
+.container-hero .main-button{
+    cursor: pointer;
+    font-size: 2.843rem;
+    display: flex;
+    font-weight: bold;
+    background: var(--gradient-color);
+    color:#fff;
+    margin-top: 6.4rem;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    align-items: center;
+    width: 30.8rem;
+    height: 6rem;
+    margin: 8.8rem auto 0;
+    padding: 8px 16px;
+    border-radius: 200px;
+    opacity: .75;
+}
+
+.container-hero .main-button:hover{
+    opacity: 1;
+    transition: all 240ms;
+}
+
+.container-hero .bottom-hero{
+    font-size: 2.4rem;
+    color: var(--black-100);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.container-hero .bottom-hero .socials{
+    display: flex;
+    flex-direction: column;
+    padding: .8rem 0;
+}
+
+.container-hero .bottom-hero .socials i{
+    cursor: pointer;
+    margin: .8rem 0;
+}
+
+.container-hero .bottom-hero .socials i:hover{
+    transform: scale(1.5);
+    transition: all 300ms;
+}
+
+.container-hero .bottom-hero .arrow-down{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0.8rem;
+}
+
+.container-hero .bottom-hero .arrow-down a{
+    cursor: pointer;
+    color: var(--black-100);
+}
+
+.rattachen{
+    width: 35rem;
+    position: absolute;
+    right: 0;
+    top: 25rem;
+}

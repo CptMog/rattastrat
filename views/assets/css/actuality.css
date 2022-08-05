@@ -1,0 +1,50 @@
+/********* ACTUALITY PART ***********/
+
+.actuality-container{
+    padding: 2.4rem 0;
+
+}
+
+.actuality-container h2{
+    text-align: center;
+    margin-bottom:4.8rem;
+}
+
+.actuality-container .container-articles{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container-articles .infos{
+    cursor: pointer;
+    background-color: var(--black-05);
+    padding-bottom: 1.6rem;
+    width: 35rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-articles .infos h3{
+    margin-bottom: .8rem;
+    padding-left: .8rem;
+    color: var(--primary-color);
+}
+
+.infos span{
+    padding-left: .8rem;
+    color: var(--black-50);
+}
+
+.button-all-articles{
+    text-align: center;
+    margin-top: 7.2rem;
+}
+
+.button-all-articles span{
+    padding: 0 2.4rem;
+    cursor: pointer;
+    color: var(--primary-color);
+    border-bottom: 1px solid var(--primary-color);
+}

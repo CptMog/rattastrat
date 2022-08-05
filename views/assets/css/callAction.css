@@ -1,0 +1,27 @@
+/********* CALL TO ACTION PART ***********/
+
+.call-action-container{
+    background-color: var(--black-100);
+    padding: 1.6rem 0;
+    text-align: center;
+}
+
+.call-action-container h2{
+    margin-top: 0;
+    color: #fff;
+}
+
+.call-action-container .button-call-act{
+    cursor: pointer;
+    color: #fff;
+    width: 20rem;
+    margin: 0 auto;
+    background-color: var(--primary-color);
+    padding: 1.6rem 1.6rem;
+    border-radius: 200px;
+}
+
+.call-action-container .button-call-act:hover{
+    transform: scale(1.08);
+    transition: all 240ms;
+}
