@@ -6,7 +6,6 @@ const containerPokemons = document.querySelector('.team-container');
 let pokemonBloc;
 let imagePokemon;
 
-
 function addNameToDom(index,containerDom){
     pokeApi.getFrenchNamePokemon(index)
     .then(data =>{
